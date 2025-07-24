@@ -9,30 +9,96 @@ namespace GameSolver.ConsoleApp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("--- Welcome to 2048 Game ---");
-            Console.WriteLine("Please choose a game mode:");
-            Console.WriteLine("1. Manual Play (You play with W, A, S, D)");
-            Console.WriteLine("2. AI Player (Watch the AI play)");
-            Console.WriteLine("-----------------------------");
-            Console.Write("Enter your choice (1 or 2): ");
-
-            string choice = Console.ReadLine();
-
-            switch (choice)
+            while (true)
             {
-                case "1":
-                    StartHumanPlayerMode();
-                    break;
-                case "2":
-                    StartAiPlayerMode();
-                    break;
-                default:
-                    Console.WriteLine("Invalid choice. Exiting.");
-                    break;
-            }
+                Console.Clear();
+                Console.WriteLine("--- Welcome to 2048 Game ---");
+                Console.WriteLine("Please choose a game mode:");
+                Console.WriteLine("1. Manual Play (You play with W, A, S, D)");
+                Console.WriteLine("2. AI Player (Watch the AI play)");
+                Console.WriteLine("3. AI Assistant (Get best move for your game)"); // Lựa chọn mới
+                Console.WriteLine("-----------------------------");
+                Console.Write("Enter your choice (1, 2, or 3), or Q to quit: ");
 
-            Console.WriteLine("\nPress Enter to exit the application.");
-            Console.ReadLine();
+                string? choice = Console.ReadLine();
+
+                switch (choice?.ToUpper())
+                {
+                    case "1":
+                        StartHumanPlayerMode();
+                        break;
+                    case "2":
+                        StartAiPlayerMode();
+                        break;
+                    case "3":
+                        StartAssistantMode();
+                        break;
+                    case "Q":
+                        return; // Thoát chương trình
+                    default:
+                        Console.WriteLine("Invalid choice. Press Enter to try again.");
+                        Console.ReadLine();
+                        break;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Chế độ trợ lý AI
+        /// </summary>
+        public static void StartAssistantMode()
+        {
+            var solver = new Solver();
+
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("--- AI Assistant Mode ---");
+                Console.WriteLine("Enter the numbers on your 4x4 grid. Use 0 for empty tiles.");
+
+                var grid = new int[4, 4];
+                for (int i = 0; i < 4; i++)
+                {
+                    for (int j = 0; j < 4; j++)
+                    {
+                        Console.Write($"Enter tile at [Row {i + 1}, Col {j + 1}]: ");
+                        while (!int.TryParse(Console.ReadLine(), out grid[i, j]))
+                        {
+                            Console.WriteLine("Invalid input. Please enter a number.");
+                            Console.Write($"Enter tile at [Row {i + 1}, Col {j + 1}]: ");
+                        }
+                    }
+                }
+
+                // Tạo một bàn cờ tạm thời từ input của người dùng
+                var currentBoard = new Board(grid, 0); // Score không quan trọng ở đây
+
+                Console.WriteLine("\nAnalyzing your board...");
+                PrintBoard(currentBoard, "Your Board");
+
+                Direction? bestMove = solver.FindBestMove(currentBoard);
+
+                Console.WriteLine("\n--- AI SUGGESTION ---");
+                if (bestMove.HasValue)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"      BEST MOVE: {bestMove.Value.ToString().ToUpper()}");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("      NO VALID MOVES FOUND. GAME OVER?");
+                    Console.ResetColor();
+                }
+                Console.WriteLine("---------------------\n");
+
+                Console.Write("Do you want to get another suggestion? (Y/N): ");
+                if (Console.ReadLine()?.ToUpper() != "Y")
+                {
+                    break;
+                }
+            }
         }
 
         /// <summary>

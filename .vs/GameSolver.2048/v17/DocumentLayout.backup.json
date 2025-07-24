@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\workspace\\project\\personal\\GameSolver\\",
+  "WorkspaceRootPath": "D:\\workspace\\project\\personal\\GameSolver2048\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BC322A2-63A3-43F3-A28D-4D8C8F69C686}|GameSolver.ConsoleApp\\GameSolver.ConsoleApp.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BC322A2-63A3-43F3-A28D-4D8C8F69C686}|GameSolver.ConsoleApp\\GameSolver.ConsoleApp.csproj|d:\\workspace\\project\\personal\\gamesolver2048\\gamesolver.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BC322A2-63A3-43F3-A28D-4D8C8F69C686}|GameSolver.ConsoleApp\\GameSolver.ConsoleApp.csproj|solutionrelative:gamesolver.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.core\\solver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|D:\\workspace\\project\\personal\\GameSolver2048\\gamesolver.core\\solver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|solutionrelative:gamesolver.core\\solver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.core\\heuristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|D:\\workspace\\project\\personal\\GameSolver2048\\gamesolver.core\\heuristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|solutionrelative:gamesolver.core\\heuristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.core\\movesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|D:\\workspace\\project\\personal\\GameSolver2048\\gamesolver.core\\movesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|solutionrelative:gamesolver.core\\movesimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.core\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|D:\\workspace\\project\\personal\\GameSolver2048\\gamesolver.core\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|solutionrelative:gamesolver.core\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|d:\\workspace\\project\\personal\\gamesolver\\gamesolver.core\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|D:\\workspace\\project\\personal\\GameSolver2048\\gamesolver.core\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AC87083-3664-417A-805C-B0D09A5676C0}|GameSolver.Core\\GameSolver.Core.csproj|solutionrelative:gamesolver.core\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,37 +40,35 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Solver.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Solver.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Solver.cs",
               "RelativeDocumentMoniker": "GameSolver.Core\\Solver.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Solver.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Solver.cs",
               "RelativeToolTip": "GameSolver.Core\\Solver.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAASwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T09:07:31.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T09:07:31.827Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Heuristics.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Heuristics.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Heuristics.cs",
               "RelativeDocumentMoniker": "GameSolver.Core\\Heuristics.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Heuristics.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Heuristics.cs",
               "RelativeToolTip": "GameSolver.Core\\Heuristics.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAUwG0AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T09:06:25.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T09:06:25.419Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.ConsoleApp\\Program.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "GameSolver.ConsoleApp\\Program.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.ConsoleApp\\Program.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.ConsoleApp\\Program.cs",
               "RelativeToolTip": "GameSolver.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAA0wI0AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T08:55:49.095Z",
               "EditorCaption": ""
@@ -79,40 +77,37 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MoveSimulator.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\MoveSimulator.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\MoveSimulator.cs",
               "RelativeDocumentMoniker": "GameSolver.Core\\MoveSimulator.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\MoveSimulator.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\MoveSimulator.cs",
               "RelativeToolTip": "GameSolver.Core\\MoveSimulator.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAwwEUAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T08:54:48.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T08:54:48.946Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Enums.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Enums.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Enums.cs",
               "RelativeDocumentMoniker": "GameSolver.Core\\Enums.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Enums.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Enums.cs",
               "RelativeToolTip": "GameSolver.Core\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T08:54:29.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T08:54:29.819Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Board.cs",
-              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Board.cs",
+              "DocumentMoniker": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Board.cs",
               "RelativeDocumentMoniker": "GameSolver.Core\\Board.cs",
-              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver\\GameSolver.Core\\Board.cs",
+              "ToolTip": "D:\\workspace\\project\\personal\\GameSolver2048\\GameSolver.Core\\Board.cs",
               "RelativeToolTip": "GameSolver.Core\\Board.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAQwDoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T08:53:34.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T08:53:34.531Z"
             }
           ]
         }
