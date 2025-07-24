@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GameSolver.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "GameSolver.Core": "1.0.0"
+        },
+        "runtime": {
+          "GameSolver.ConsoleApp.dll": {}
+        }
+      },
+      "GameSolver.Core/1.0.0": {
+        "runtime": {
+          "GameSolver.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameSolver.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameSolver.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

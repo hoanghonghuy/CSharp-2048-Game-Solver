@@ -1,0 +1,6 @@
+D:\workspace\project\personal\GameSolver\GameSolver.Core\bin\Debug\GameSolver.Core.dll
+D:\workspace\project\personal\GameSolver\GameSolver.Core\bin\Debug\GameSolver.Core.pdb
+D:\workspace\project\personal\GameSolver\GameSolver.Core\obj\Debug\GameSolver.Core.csproj.AssemblyReference.cache
+D:\workspace\project\personal\GameSolver\GameSolver.Core\obj\Debug\GameSolver.Core.csproj.CoreCompileInputs.cache
+D:\workspace\project\personal\GameSolver\GameSolver.Core\obj\Debug\GameSolver.Core.dll
+D:\workspace\project\personal\GameSolver\GameSolver.Core\obj\Debug\GameSolver.Core.pdb
